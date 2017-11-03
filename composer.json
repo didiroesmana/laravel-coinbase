@@ -1,0 +1,27 @@
+{
+    "name": "didiroesmana/laravel-coinbase",
+    "description": "Coinbase Wrapper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Didi Roesmana",
+            "email": "didileeee@gmail.com"
+        }
+    ],
+    "require": {
+        "coinbase/coinbase": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Didiroesmana\\LaravelCoinbase\\": "src/"
+        },
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Approached\\LaravelImageOptimizer\\ServiceProvider"
+          ]
+        }
+    }
+}
