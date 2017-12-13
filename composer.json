@@ -15,7 +15,7 @@
     "autoload": {
         "psr-4": {
             "Didiroesmana\\LaravelCoinbase\\": "src/"
-        },
+        }
     },
     "extra": {
         "laravel": {
